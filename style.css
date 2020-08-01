@@ -74,3 +74,15 @@ img{
     height: auto;
 }
 
+h2{
+    display: inline-block;
+    border-bottom: 8px double #15a3a3;
+}
+
+.card{
+    border: none;
+}
+
+.box-shadow{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.096), 0 4px 6px 0 rgba(0, 0, 0, 0.19);
+}
