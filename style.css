@@ -4,7 +4,73 @@ body{
     height: 100vh;
 }
 
+
 #particles-js{
     height: 100%;
     background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.096), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 }
+
+/* NAVBAR */
+.navbar{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.096), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(54, 197, 210, .99);
+    font-family: 'Lato', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    transition: 0.4s ease;
+    
+}
+.navbar a{
+    text-decoration: none;
+    display: inline-block !important; /* FIXES 100% UNDERLINE BUG ON COLLAPSE ANCHOR TAGS */
+}
+
+.nav-link{
+    color: black !important;
+    font-weight: bold;
+    font-size: .85em;
+}
+
+.hover-effect::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: red;
+    transition: width .3s;
+}
+
+.hover-effect:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+nav.navbar.transparent{
+    background-color: rgba(0,0,0,0);
+}
+
+
+
+.hero-h1{
+    position: absolute;
+    left: 0px;
+    top: 35%;
+    right: 0px;
+    display: block;
+    margin: 0px auto;
+    font-size: 62px;
+    text-align: center;
+}
+
+.logo-main{
+    width: auto;
+    height: 30vh;
+}
+
+img{
+    outline: none;
+    user-select: none !important;
+    max-width: 100%;
+    height: auto;
+}
+
