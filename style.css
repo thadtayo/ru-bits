@@ -4,11 +4,25 @@ body{
     height: 100vh;
 }
 
+a{
+    color: inherit;
+}
 
+a:hover{
+    font-weight: bold;
+    color: inherit;
+}
 #particles-js{
-    height: 100%;
     background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.096), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fifty-height{
+    height: 40%;
+}
+
+.full-height{
+    height: 100%;
 }
 
 /* NAVBAR */
@@ -62,6 +76,17 @@ nav.navbar.transparent{
     text-align: center;
 }
 
+.hero2-h1{
+    position: absolute;
+    left: 0px;
+    top: 20%;
+    right: 0px;
+    display: block;
+    margin: 0px auto;
+    font-size: 62px;
+    text-align: center;
+}
+
 .logo-main{
     width: auto;
     height: 30vh;
@@ -85,4 +110,14 @@ h2{
 
 .box-shadow{
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.096), 0 4px 6px 0 rgba(0, 0, 0, 0.19);
+}
+
+.podcast-title{
+    color: rgb(38,57,68);
+    text-decoration: underline;
+}
+
+.divider{
+    border-bottom: solid;
+    margin-right: 3%;
 }
