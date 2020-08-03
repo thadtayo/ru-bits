@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     padding: 0;
@@ -40,6 +43,7 @@ a:hover{
     text-decoration: none;
     display: inline-block !important; /* FIXES 100% UNDERLINE BUG ON COLLAPSE ANCHOR TAGS */
 }
+
 
 .nav-link{
     color: black !important;
@@ -132,6 +136,7 @@ img{
     display: inline-block;
     border-bottom: 8px solid #15a3a3;
     padding-bottom: 12px;
+    margin-bottom: 5%;
 }
 
 .significant-link{
@@ -144,9 +149,9 @@ img{
 }
 
 
-#learn-more{
+#contact{
     margin-bottom: 6%;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 
