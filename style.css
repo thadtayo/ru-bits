@@ -136,7 +136,7 @@ img{
     display: inline-block;
     border-bottom: 8px solid #15a3a3;
     padding-bottom: 12px;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 
 .significant-link{
@@ -155,8 +155,18 @@ img{
 }
 
 
+.podcast-row{
+  margin-bottom: 10%;
+}
 
+#team img{
+  width: 150px;
+  height: 150px;
+}
 
+.btn{
+  display: block;
+}
 /* footer */
 .site-footer
 {

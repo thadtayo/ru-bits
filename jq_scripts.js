@@ -12,3 +12,9 @@ $('.nav-link').on('click', function() {
 	$('.active-link').removeClass('active-link');
 	$(this).addClass('active-link');
 });
+
+
+$(".btn-minimize").click(function(){
+  $(this).text($(this).text() == 'Minimize' ? 'Maximize' : 'Minimize');
+  $(".team-section").slideToggle();
+});
