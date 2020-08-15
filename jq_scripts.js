@@ -13,8 +13,33 @@ $('.nav-link').on('click', function() {
 	$(this).addClass('active-link');
 });
 
+// NAVBAR SCROLL TO TOP
+$("a[href='#top']").click(function() {
+  $("html, body").animate({ scrollTop: 0 }, "fast");
+  return false;
+});
 
+// NAVBAR SCROLL TO ABOUT
+$("a[href='#about']").click(function() {
+  $('html, body').animate({scrollTop: $('#about').offset().top - 100 }, 'fast');
+  return false;
+});
+
+// NAVBAR SCROLL TO TEAM
+$("a[href='#team']").click(function() {
+  $('html, body').animate({scrollTop: $('#team').offset().top - 100 }, 'fast');
+  return false;
+});
+
+// NAVBAR SCROLL TO CONTACT
+$("a[href='#contact']").click(function() {
+  $('html, body').animate({scrollTop: $('#contact').offset().top - 100 }, 'fast');
+  return false;
+});
+
+// TEAM SECTION MINIMIZE/MAXIMIZE
 $(".btn-minimize").click(function(){
   $(this).text($(this).text() == 'Minimize' ? 'Maximize' : 'Minimize');
   $(".team-section").slideToggle();
 });
+
