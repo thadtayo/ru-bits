@@ -25,6 +25,12 @@ $("a[href='#about']").click(function() {
   return false;
 });
 
+// NAVBAR SCROLL TO EVENTS
+$("a[href='#events']").click(function() {
+  $('html, body').animate({scrollTop: $('#events').offset().top - 100 }, 'fast');
+  return false;
+});
+
 // NAVBAR SCROLL TO TEAM
 $("a[href='#team']").click(function() {
   $('html, body').animate({scrollTop: $('#team').offset().top - 100 }, 'fast');
