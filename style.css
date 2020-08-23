@@ -98,6 +98,11 @@ nav.navbar.transparent{
     height: 30vh;
 }
 
+
+#team h3{
+  color: #019494;
+  margin-bottom: 2%;
+}
 img{
     outline: none;
     user-select: none !important;
