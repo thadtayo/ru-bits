@@ -180,6 +180,26 @@ button{
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.096), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 
 }
+
+#upcoming img{
+  width: 350px;
+  height: 455px;
+}
+
+#upcoming .row{
+  margin-bottom: 3%;
+  padding-bottom: 3%;
+}
+
+#past img{
+  width: 350px;
+  height: 455px;
+}
+
+#past .row{
+  padding-bottom: 3%;
+}
+
 /* footer */
 .site-footer
 {

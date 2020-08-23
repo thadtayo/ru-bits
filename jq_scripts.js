@@ -43,6 +43,18 @@ $("a[href='#contact']").click(function() {
   return false;
 });
 
+// EVENTS SCROLL TO UPCOMING
+$("a[href='#upcoming']").click(function() {
+  $('html, body').animate({scrollTop: $('#upcoming').offset().top - 100 }, 'fast');
+  return false;
+});
+
+// EVENTS SCROLL TO UPCOMING
+$("a[href='#past']").click(function() {
+  $('html, body').animate({scrollTop: $('#past').offset().top - 100 }, 'fast');
+  return false;
+});
+
 // TEAM SECTION MINIMIZE/MAXIMIZE
 $(".btn-minimize").click(function(){
   $(this).text($(this).text() == 'Minimize' ? 'Maximize' : 'Minimize');
